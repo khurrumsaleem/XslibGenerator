@@ -10,6 +10,7 @@ class Reaction():
     def __init__(self, rec_name):
         self.name = rec_name
         self.MT = MT_dict[rec_name]
+        self.xses = None
 
 class Nuclide():
     
